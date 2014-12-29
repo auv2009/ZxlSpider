@@ -10,5 +10,6 @@ namespace ZxlSpider.Ca411Spider.Common
         public const string PROJ_NAME = "ZxlSpider";
         public const string SERVER_IP = "192.168.8.162";
         public const string GITHUB_IP = "192.168.8.163";
+        public const string GITLIB_IP = "192.168.8.164";
     }
 }
