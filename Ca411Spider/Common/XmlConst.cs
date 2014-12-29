@@ -8,5 +8,6 @@ namespace ZxlSpider.Ca411Spider.Common
     public class XmlConst
     {
         public const string PROJ_NAME = "ZxlSpider";
+        public const string SERVER_IP = "192.168.8.162";
     }
 }
