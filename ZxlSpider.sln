@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ca411Spider", "Ca411Spider\Ca411Spider.csproj", "{23DDF6FB-210C-42A9-8D92-61BDB572DCCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assemblies", "Assemblies", "{AD82B59B-E8C3-4032-9C2D-C0297C619AC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NPOI", "NPOI", "{9D559295-6AAB-48FF-A6A4-29B2D546E786}"
+	ProjectSection(SolutionItems) = preProject
+		Assemblies\NPOI\dotnet4\ICSharpCode.SharpZipLib.dll = Assemblies\NPOI\dotnet4\ICSharpCode.SharpZipLib.dll
+		Assemblies\NPOI\dotnet4\NPOI.dll = Assemblies\NPOI\dotnet4\NPOI.dll
+		Assemblies\NPOI\dotnet4\NPOI.OOXML.dll = Assemblies\NPOI\dotnet4\NPOI.OOXML.dll
+		Assemblies\NPOI\dotnet4\NPOI.OOXML.XML = Assemblies\NPOI\dotnet4\NPOI.OOXML.XML
+		Assemblies\NPOI\dotnet4\NPOI.OpenXml4Net.dll = Assemblies\NPOI\dotnet4\NPOI.OpenXml4Net.dll
+		Assemblies\NPOI\dotnet4\NPOI.OpenXml4Net.XML = Assemblies\NPOI\dotnet4\NPOI.OpenXml4Net.XML
+		Assemblies\NPOI\dotnet4\NPOI.OpenXmlFormats.dll = Assemblies\NPOI\dotnet4\NPOI.OpenXmlFormats.dll
+		Assemblies\NPOI\dotnet4\NPOI.XML = Assemblies\NPOI\dotnet4\NPOI.XML
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HtmlAgilityPack", "HtmlAgilityPack", "{D9A1B719-E13F-41D7-8E88-25A977B38097}"
+	ProjectSection(SolutionItems) = preProject
+		Assemblies\HtmlAgilityPack\Net40\HtmlAgilityPack.dll = Assemblies\HtmlAgilityPack\Net40\HtmlAgilityPack.dll
+		Assemblies\HtmlAgilityPack\Net40\HtmlAgilityPack.pdb = Assemblies\HtmlAgilityPack\Net40\HtmlAgilityPack.pdb
+		Assemblies\HtmlAgilityPack\Net40\HtmlAgilityPack.XML = Assemblies\HtmlAgilityPack\Net40\HtmlAgilityPack.XML
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23DDF6FB-210C-42A9-8D92-61BDB572DCCA}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{23DDF6FB-210C-42A9-8D92-61BDB572DCCA}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{23DDF6FB-210C-42A9-8D92-61BDB572DCCA}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{23DDF6FB-210C-42A9-8D92-61BDB572DCCA}.Debug|x86.ActiveCfg = Debug|x86
+		{23DDF6FB-210C-42A9-8D92-61BDB572DCCA}.Debug|x86.Build.0 = Debug|x86
+		{23DDF6FB-210C-42A9-8D92-61BDB572DCCA}.Release|Any CPU.ActiveCfg = Release|x86
+		{23DDF6FB-210C-42A9-8D92-61BDB572DCCA}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{23DDF6FB-210C-42A9-8D92-61BDB572DCCA}.Release|Mixed Platforms.Build.0 = Release|x86
+		{23DDF6FB-210C-42A9-8D92-61BDB572DCCA}.Release|x86.ActiveCfg = Release|x86
+		{23DDF6FB-210C-42A9-8D92-61BDB572DCCA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D559295-6AAB-48FF-A6A4-29B2D546E786} = {AD82B59B-E8C3-4032-9C2D-C0297C619AC0}
+		{D9A1B719-E13F-41D7-8E88-25A977B38097} = {AD82B59B-E8C3-4032-9C2D-C0297C619AC0}
+	EndGlobalSection
+EndGlobal
