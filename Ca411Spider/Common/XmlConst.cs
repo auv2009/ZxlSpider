@@ -14,5 +14,6 @@ namespace ZxlSpider.Ca411Spider.Common
         public const string MASTER = "change on master";
         public const string SERVER_IP = "192.168.8.162";
         public const string GITHUB_IP = "192.168.8.163";
+
     }
 }
