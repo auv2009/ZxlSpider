@@ -7,6 +7,7 @@ namespace ZxlSpider.Ca411Spider.Common
 {
     class Class1
     {
-        int a = 10;
+        string a1 = "a1";
+        string b1 = "b1";
     }
 }
